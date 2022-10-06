@@ -15,7 +15,6 @@ function color_change_back() {
 
 function background_color_change() {
     let paragraph = "paragraph";
-
     document.getElementById(paragraph).style.backgroundColor = "red";
 }
 
