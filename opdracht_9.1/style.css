@@ -1,0 +1,22 @@
+.modal {
+    display: none;
+    position: fixed;
+    left: 25vw;
+    top: 25vh;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.inputchild {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+}
+
+body {
+    background-color: gray;
+}
