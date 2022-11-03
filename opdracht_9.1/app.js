@@ -13,7 +13,8 @@ function cookieWall() {
 function ageCheck() {
     age = document.getElementById("age").valueAsNumber;
     if (age >= 18) {
-        text.innerText = "Ga nu naar een website naar keuze"
+        text.innerText = "Je wordt doorgestuurt"
+        window.location.href = "https://github.com/Rick-Krijger/p1-javascript/tree/main/opdracht_9.1";
     } else {
         modal.style.display = "none";
         background.style.background = 'red';
