@@ -1,9 +1,8 @@
-const countDate = new Date("December 23, 2022 12:15:00");
+const countDate = new Date("December 23, 2022 15:15:00");
 const second = 1000;
 const minute = second * 60;
 const hour = minute * 60;
 const day =  hour * 24;
-console.log(countDate);
 
 function countdown() {
     const now = new Date();
